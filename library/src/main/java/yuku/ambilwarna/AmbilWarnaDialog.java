@@ -172,7 +172,7 @@ public class AmbilWarnaDialog {
 		});
 
 		dialog = new AlertDialog.Builder(context)
-		.setPositiveButton(android.R.string.ok, new DialogInterface.OnClickListener() {
+		.setPositiveButton("선", new DialogInterface.OnClickListener() {
 			@Override
 			public void onClick(DialogInterface dialog, int which) {
 				if (AmbilWarnaDialog.this.listener != null) {
@@ -180,7 +180,7 @@ public class AmbilWarnaDialog {
 				}
 			}
 		})
-		.setNegativeButton(android.R.string.cancel, new DialogInterface.OnClickListener() {
+		.setNegativeButton(""취, new DialogInterface.OnClickListener() {
 			@Override
 			public void onClick(DialogInterface dialog, int which) {
 				if (AmbilWarnaDialog.this.listener != null) {
